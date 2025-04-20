@@ -1,6 +1,14 @@
 [package]
 name = "ts-highlight-demo"
 version = "0.1.0"
+authors = ["elginas"]
+license = "MIT"
+readme = "README.md"
+keywords = ["highlighting", "tree-sitter", "json"]
+repository = "https://github.com/elginas/ts-highlight-demo"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5.37", features = ["derive"] }
+tree-sitter-highlight = "0.25.3"
+tree-sitter-json = { version = "0.1.0", path = "../tree-sitter-json" }
