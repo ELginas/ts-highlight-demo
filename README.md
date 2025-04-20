@@ -4,6 +4,8 @@ tree-sitter syntax highlighting demo with [my `tree-sitter-json`](https://github
 
 ## Testing
 
+[Tutorial](https://tree-sitter.github.io/tree-sitter/3-syntax-highlighting.html)
+
 Clone [my `tree-sitter-json`](https://github.com/ELginas/tree-sitter-json) to have this folder structure:
 
 ```
